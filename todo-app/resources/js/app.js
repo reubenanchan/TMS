@@ -1,4 +1,7 @@
 import { createApp } from 'vue';
-import TodoList from './components/TodoList.vue';
+import App from './App.vue';
+import router from './router'; // Import the router we just created
 
-createApp(TodoList).mount('#app');
+const app = createApp(App);
+app.use(router); // Tell Vue to use the router
+app.mount('#app');
