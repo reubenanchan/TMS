@@ -10,7 +10,6 @@
         <example-component></example-component>
     </div>
 
-    <!-- Include the compiled JavaScript -->
     @vite(['resources/js/app.js'])
 </body>
 </html>

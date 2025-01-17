@@ -1,4 +1,3 @@
-<!-- resources/js/components/TodoDetail.vue -->
 <template>
     <div>
       <h1>Todo Detail</h1>
@@ -18,7 +17,7 @@
       };
     },
     created() {
-      const todoId = this.$route.params.id; // Get the ID from the URL
+      const todoId = this.$route.params.id; // Get ID
       this.fetchTodoDetail(todoId);
     },
     methods: {
